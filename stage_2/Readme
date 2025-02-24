@@ -1,6 +1,6 @@
 # Public Health: Analyzing the NHANES Dataset
 
-This repository contains a Python notebook (`Biochemistry_task_(2_4).ipynb`) that analyzes the relationship between the data of participants in the dataset
+This repository contains a Python notebook (`Stage_2.ipynb`) that analyzes the relationship between the data of participants in the dataset
 
 ## Task Description
 
@@ -34,7 +34,7 @@ The goal was to:
 
 ## Files
 
-* `nhanes.csv`: Jupyter Notebook containing the Python code for the analysis.
+* `Stage_2.ipynb`: Jupyter Notebook containing the Python code for the analysis.
 * `NHANES Dataset`:https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/nhanes.csv
 
 
@@ -52,15 +52,19 @@ You can install these libraries using pip
 ## Results
 The notebook provides:
 
-* A merged dataframe with SIFT and FoldX scores.
-* A list of mutations affecting both structure and function.
-* Frequency tables and visualizations of amino acid occurrences.
-* An analysis of the most impactful amino acids.
+* Dropped the NA values.
+* Visualized the distribution of BMI, Weight, Weight in punds and age on a Histogram.
+* Calculated the mean of the 60-second pulse rate.
+* Displayed the min and max Diastolic blood pressure
+* Calculated the varianve and standard deviation of the income of participants
+* Visualized the relationship between weight and height, and color coded by gender, diabetes, and smoking status on scatterplots
+* Conducted a t-test to find out the relationship between age and gender, BMI and diabetes, alcohol year and relationship status based on the P-value
 
 ## Author
 
-* Hana Nadir(@Hana) 
+* Bezaleel Akinbami(@Bez) 
 
 ## Acknowledgements
-* Galardini and colleagues for providing the research context.
+* CDC for the dataset.
+* My team members
 * HackBio for the task.
